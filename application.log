@@ -27,3 +27,9 @@
 2020-12-23 02:44:01.789  WARN 20724 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
 2020-12-23 02:44:01.822  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Started AddressbookappApplication in 0.344 seconds (JVM running for 12229.805)
 2020-12-23 02:44:01.823  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Address Book Application started 
+2020-12-23 02:52:22.042 [INFO] [c.b.a.AddressbookappApplication:55] Starting AddressbookappApplication using Java 15 on LAPTOP-M8PELJBS with PID 20724 (C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp\target\classes started by Heros in C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp)
+2020-12-23 02:52:22.042 [DEBUG] [c.b.a.AddressbookappApplication:56] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 02:52:22.042 [INFO] [c.b.a.AddressbookappApplication:664] The following profiles are active: dev
+2020-12-23 02:52:22.353 [WARN] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-23 02:52:22.382 [INFO] [c.b.a.AddressbookappApplication:61] Started AddressbookappApplication in 0.373 seconds (JVM running for 12730.366)
+2020-12-23 02:52:22.384 [INFO] [c.b.a.AddressbookappApplication:15] Address Book Application started 
