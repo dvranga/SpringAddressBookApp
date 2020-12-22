@@ -1,0 +1,29 @@
+2020-12-23 02:39:27.440  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Starting AddressbookappApplication using Java 15 on LAPTOP-M8PELJBS with PID 20724 (C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp\target\classes started by Heros in C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp)
+2020-12-23 02:39:27.442 DEBUG 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 02:39:27.442  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : No active profile set, falling back to default profiles: default
+2020-12-23 02:39:27.731  WARN 20724 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-23 02:39:27.764  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Started AddressbookappApplication in 0.469 seconds (JVM running for 11955.747)
+2020-12-23 02:41:16.973  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Starting AddressbookappApplication using Java 15 on LAPTOP-M8PELJBS with PID 20724 (C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp\target\classes started by Heros in C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp)
+2020-12-23 02:41:16.974 DEBUG 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 02:41:16.974  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : No active profile set, falling back to default profiles: default
+2020-12-23 02:41:17.297  WARN 20724 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-23 02:41:17.327  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Started AddressbookappApplication in 0.384 seconds (JVM running for 12065.312)
+2020-12-23 02:41:17.329  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : COMMON
+2020-12-23 02:43:02.464  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Starting AddressbookappApplication using Java 15 on LAPTOP-M8PELJBS with PID 20724 (C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp\target\classes started by Heros in C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp)
+2020-12-23 02:43:02.464 DEBUG 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 02:43:02.464  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : No active profile set, falling back to default profiles: default
+2020-12-23 02:43:02.735  WARN 20724 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-23 02:43:02.765  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Started AddressbookappApplication in 0.328 seconds (JVM running for 12170.749)
+2020-12-23 02:43:02.767  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : null
+2020-12-23 02:43:45.534  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Starting AddressbookappApplication using Java 15 on LAPTOP-M8PELJBS with PID 20724 (C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp\target\classes started by Heros in C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp)
+2020-12-23 02:43:45.534 DEBUG 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 02:43:45.535  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : No active profile set, falling back to default profiles: default
+2020-12-23 02:43:45.874  WARN 20724 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-23 02:43:45.904  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Started AddressbookappApplication in 0.396 seconds (JVM running for 12213.887)
+2020-12-23 02:43:45.905  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Address Book Application started 
+2020-12-23 02:44:01.502  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Starting AddressbookappApplication using Java 15 on LAPTOP-M8PELJBS with PID 20724 (C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp\target\classes started by Heros in C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\addressbookapp)
+2020-12-23 02:44:01.502 DEBUG 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-23 02:44:01.502  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : No active profile set, falling back to default profiles: default
+2020-12-23 02:44:01.789  WARN 20724 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-23 02:44:01.822  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Started AddressbookappApplication in 0.344 seconds (JVM running for 12229.805)
+2020-12-23 02:44:01.823  INFO 20724 --- [restartedMain] c.b.a.AddressbookappApplication          : Address Book Application started 
