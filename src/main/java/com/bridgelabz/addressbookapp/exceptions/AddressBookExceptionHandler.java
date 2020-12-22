@@ -19,7 +19,13 @@ public class AddressBookExceptionHandler {
 	ResponseEntity<ResponseDTO> methodNotFindMethodExceptionHandler(MethodArgumentNotValidException exception){
 		List<ObjectError> allErrors = exception.getBindingResult().getAllErrors();
 		List<String> collect = allErrors.stream().map(mapper -> mapper.getDefaultMessage()).collect(Collectors.toList());
-		ResponseDTO responseDTO = new ResponseDTO("Exception from response dto ", collect);
-		return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
+		ResponseDTO responseDTO = new ResponseDTO("Exception while processing REST request ", collect);
+		return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.BAD_REQUEST);
+	}
+	
+	@ExceptionHandler(AddressBookException.class)
+	ResponseEntity<ResponseDTO> addressBookException(AddressBookException exception){
+		ResponseDTO responseDTO=new ResponseDTO("Exception while processing REST request ", exception.getMessage());
+		return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.BAD_REQUEST);
 	}
 }
