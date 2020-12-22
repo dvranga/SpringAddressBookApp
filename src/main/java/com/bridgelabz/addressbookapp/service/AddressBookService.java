@@ -11,35 +11,37 @@ import com.bridgelabz.addressbookapp.model.AddressBookData;
 @Service
 public class AddressBookService implements IAddressBookService {
 
+	private List<AddressBookData> addressBookList=new ArrayList<AddressBookData>();
+	
 	@Override
 	public List<AddressBookData> getAddressBookData() {
-		List<AddressBookData> addressBookList=new ArrayList<AddressBookData>();
-		addressBookList.add(new AddressBookData(1, new AddressBookDTO("Ranganath", "Gorantla")));
 		return addressBookList;
 	}
 
 	@Override
 	public AddressBookData getAddressBookById(int contId) {
-		AddressBookData addressBookData=new AddressBookData(contId, new AddressBookDTO("Harinath", "Gorantla"));
-		return addressBookData;
+		return addressBookList.get(contId-1);
 	}
 
 	@Override
 	public AddressBookData createAddressBookData(AddressBookDTO addressBookDTO) {
-		AddressBookData addressBookData=new AddressBookData(3, addressBookDTO);
-		return addressBookData;
+		List<AddressBookData> addressBookData = this.getAddressBookData();
+		addressBookList.add( new AddressBookData(addressBookData.size()+1, addressBookDTO));
+		return addressBookList.get(addressBookList.size()-1);
 	}
 
 	@Override
 	public AddressBookData updateAddressBookData(int contId, AddressBookDTO addressBookDTO) {
-		AddressBookData addressBookData=new AddressBookData(contId, addressBookDTO);
-		return addressBookData;
+		AddressBookData contact = addressBookList.get(contId-1);
+		contact.setName(addressBookDTO.getName());
+		contact.setAddress(addressBookDTO.getAddress());
+		addressBookList.set(contId-1, contact);
+		return contact;
 	}
 
 	@Override
 	public void deleteAddressBookData(int contId) {
-		// TODO Auto-generated method stub
-		
+		addressBookList.remove(contId-1);
 	}
 
 }
