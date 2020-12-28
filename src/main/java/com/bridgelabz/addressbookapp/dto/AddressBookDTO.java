@@ -1,6 +1,7 @@
 package com.bridgelabz.addressbookapp.dto;
 
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 import lombok.Data;
@@ -23,10 +24,13 @@ public class AddressBookDTO {
 	@NotEmpty(message = "PhoneNo cannot be null")
 	public String phoneNumber;
 	
+	@NotEmpty(message = "City cannot be null ")
 	String city;
 	
+	@NotNull(message = "State cannot be null ")
 	String state;
 	
+	@NotNull(message = "Zip cannot be null ")
 	String zip;
 	
 	
