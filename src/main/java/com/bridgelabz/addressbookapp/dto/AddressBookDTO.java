@@ -32,12 +32,5 @@ public class AddressBookDTO {
 	
 	@NotNull(message = "Zip cannot be null ")
 	String zip;
-	
-	
-	
-	public AddressBookDTO(String name, String address) {
-		super();
-		this.name = name;
-		this.address = address;
-	}	
+
 }

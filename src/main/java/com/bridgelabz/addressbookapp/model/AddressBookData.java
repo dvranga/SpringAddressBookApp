@@ -28,6 +28,10 @@ public class AddressBookData {
 	public String state;
 	public String zip;
 	
+	public AddressBookData() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public AddressBookData( AddressBookDTO addressBookDTO) {
 		 this.updateAddressBookData(addressBookDTO);
 
@@ -39,6 +43,7 @@ public class AddressBookData {
 		this.phoneNumber=addressBookDTO.getPhoneNumber();
 		this.city=addressBookDTO.getCity();
 		this.state=addressBookDTO.getState();
+		this.zip=addressBookDTO.getZip();
 	}
 	
 }
