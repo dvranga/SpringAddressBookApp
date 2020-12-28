@@ -33,7 +33,7 @@ public class AddressBookData {
 
 	}
 
-	private void updateAddressBookData(AddressBookDTO addressBookDTO) {
+	public void updateAddressBookData(AddressBookDTO addressBookDTO) {
 		this.name=addressBookDTO.getName();
 		this.address=addressBookDTO.getAddress();
 		this.phoneNumber=addressBookDTO.getPhoneNumber();
