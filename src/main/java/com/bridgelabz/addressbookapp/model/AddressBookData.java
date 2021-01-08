@@ -13,17 +13,17 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table
+@Table(name = "addressbook")
 public class AddressBookData {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "addressbook_id")
-	public int addressBookId;
+	@Column(name = "id")
+	public int id;
 	
 	public String name;
 	public String address;
-	public String phoneNumber;
+	public String mobile;
 	public String city;
 	public String state;
 	public String zip;
@@ -40,7 +40,7 @@ public class AddressBookData {
 	public void updateAddressBookData(AddressBookDTO addressBookDTO) {
 		this.name=addressBookDTO.getName();
 		this.address=addressBookDTO.getAddress();
-		this.phoneNumber=addressBookDTO.getPhoneNumber();
+		this.mobile=addressBookDTO.getMobile();
 		this.city=addressBookDTO.getCity();
 		this.state=addressBookDTO.getState();
 		this.zip=addressBookDTO.getZip();
