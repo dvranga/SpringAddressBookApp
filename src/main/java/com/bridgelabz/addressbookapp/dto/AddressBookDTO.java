@@ -33,3 +33,13 @@ public class AddressBookDTO {
 	String zip;
 
 }
+//
+//
+//spring.profiles.active=dev
+//
+//environment=COMMON
+//spring.jpa.hibernate.ddl-auto=update
+//spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+//spring.datasource.url=jdbc:mysql://springboot-angular-demo1.csnyo86d6okb.us-east-2.rds.amazonaws.com:3306/addressbook_db?allowPublicKeyRetrieval=true&useSSL=false
+//spring.datasource.username=root
+//spring.datasource.password=Reset1998

@@ -26,7 +26,7 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping("/addressbook")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*", allowedHeaders ="*" )
 public class AddressBookController {
 	
 	@Autowired
@@ -68,7 +68,6 @@ public class AddressBookController {
 	@DeleteMapping("/delete/{contId}")
 	@ApiOperation("To delete the contact")
 	public ResponseEntity<ResponseDTO> deleteAddressBookData(@PathVariable("contId") int contId){
-		System.out.println("/////////////////////////**********************//////////////////////");
 		addressBookService.deleteAddressBookData(contId);
 		ResponseDTO responseDTO=new ResponseDTO("Deleted successfully the contact ", contId);
 		return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);

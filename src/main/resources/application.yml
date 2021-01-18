@@ -1,0 +1,19 @@
+#
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        web: DEBUG
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: Reset1998
+#    url: jdbc:mysql://springboot-angular-demo1.csnyo86d6okb.us-east-2.rds.amazonaws.com/addressbook_db?allowPublicKeyRetrieval=true&useSSL=false
+#    username: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+#    show-sql: true

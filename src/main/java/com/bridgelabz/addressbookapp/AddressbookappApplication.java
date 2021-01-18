@@ -11,10 +11,8 @@ import lombok.extern.slf4j.Slf4j;
 public class AddressbookappApplication {
 
 	public static void main(String[] args) {
-		ApplicationContext applicationContext = SpringApplication.run(AddressbookappApplication.class, args);
+		SpringApplication.run(AddressbookappApplication.class, args);
 		log.info("Address Book Application started ");
-		log.info(applicationContext.getEnvironment().getProperty("environment"));
-		log.info(applicationContext.getEnvironment().getProperty("spring.datasource.username"));
 	}
 
 }
